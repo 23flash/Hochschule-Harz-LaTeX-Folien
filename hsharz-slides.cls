@@ -97,6 +97,11 @@
 \setbeamercolor{frametitle}{fg=black}
 \setbeamercolor{framesubtitle}{fg=\ColorTheme}
 \setbeamercolor{footlinecolor}{fg=black,bg=\ColorTheme}
+%new commands 
+ % Dummy text for testing pages / Layouts
+\newcommand{\loremshort}{Lorem ipsum dolor sit amet.}
+\newcommand{\lorem}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.}
+\newcommand{\loremlong}{Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.}
 
 % itemize mit Strichen
 \usepackage{textcomp}
