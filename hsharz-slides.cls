@@ -44,7 +44,7 @@
 \usepackage{tikz}
 
 \LoadClass[20pt]{beamer}
-\usepackage[latin1]{inputenc}
+\usepackage[latin1,utf8]{inputenc}
 
 \RequirePackage[english,ngerman,german]{babel}
 \RequirePackage{pgfpages}
@@ -52,12 +52,14 @@
 \RequirePackage{ifthen}
 \RequirePackage{ifxetex}
 
-\ifxetex
-    \RequirePackage{fontspec}
-\else
-    \RequirePackage[utf8]{inputenc}
-    \RequirePackage{helvet}
-\fi
+
+% Is Broken
+%\ifxetex
+%    \RequirePackage{fontspec}
+%\else
+%    \RequirePackage[utf8]{inputenc}
+%    \RequirePackage{helvet}
+%\fi
 
 % Color Theme
 \definecolor{colorAI}{RGB}{150,190,180}
@@ -172,7 +174,7 @@
             \ifnum\insertframenumber=1
                 \line(0,1){52}
             \fi
-            \begin{beamercolorbox}[ht=1.9cm,wd=0.5\paperwidth]{footlinecolor}
+            \begin{beamercolorbox}[ht=2.2cm,wd=0.5\paperwidth]{footlinecolor}
                 \usebeamerfont{footer}
                 \hspace*{0.3em}
                 \vspace*{0.3em}
